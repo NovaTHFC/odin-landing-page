@@ -1,11 +1,25 @@
-header{
+*{
+    border: 2px solid red;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+
+
     
 }
 
 header,img{
 
 }
-header.a{
-    align-items: right;
+.links{
+    display: flex;
+    justify-content: right;
+
+    margin-left: auto; 
+    margin-right: 0;
+    gap: 5px;
+    
 
 }
