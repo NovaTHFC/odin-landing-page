@@ -9,36 +9,55 @@
     display: flex;
     align-items: center;
     background-color: #1F2937;
-    
+    color: #F9FAF8;
+
+}
+.header h3{
+    margin-left: 150px;
 }
 
 h1{
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    
 }
 .links{
     display: flex;
     justify-content: right;
-
     margin-left: auto; 
     margin-right: 0;
-    gap: 5px;
+    gap: 10px;
     size: 18px;
     color: #e5e7eb;
-    
+    margin-right: 150px;
+}
 
-}
-.buttons{
-    color: #3882F6;
-}
 .portion-1 p{
     size: 18px;
-    color: #e5e7eb;
+    color: #e5e7eb;    
 }
+
 .portion-1{
     background-color: #1F2937;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
     
+}
+.portion-1 .left-side{
+    width: 600px;
+    
+    
+    
+}
+.portion-1 .buttons{
+    align-self: last baseline;
+    
+}
+.portion-1 .image-placeholder{
+    width: 600px;
 }
 .portion-2 h2{
     font-size: 36px;
@@ -48,10 +67,12 @@ h1{
 }
 .portion-2 .container{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: row;
     
+    
 }
+
 .portion-3{
     background-color: #e5e7eb;
 
@@ -92,12 +113,13 @@ h1{
 .portion-4 .container p{
     align-self: flex-end;
 }
-.portion-4 .container .buttons{
+.buttons{
     background-color: #3882F6;
     color: #e5e7eb;
-    border-color: #e5e7eb;
     height: 30px;
     width: 72px;
+}
+.portion-4 .container .buttons{
     align-self: flex-end;
     
 }
@@ -105,4 +127,5 @@ h1{
     background-color: #1F2937;
     color:#e5e7eb;
     text-align: center;
+    border-color: #e5e7eb;
 }
