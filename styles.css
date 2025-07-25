@@ -59,17 +59,47 @@ h1{
 }
 .portion-3 h3{
     font-size: 36px;
-    font-style: light italic;
+    font-style: italic;
+    font-weight: lighter;
     color: #1F2937
+}
+.portion-3 p{
+    text-align: right;
 }
 .portion-4 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: center;
+    align-content: flex-start;
+    
 }
 .portion-4 .container{
     background-color: #3882f6;
-    margin: 20px
+    color: #e5e7eb;
+    margin: 20px;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+.portion-4 .container h4{
+    align-self: flex-start;
+}
+.portion-4 .container p{
+    align-self: flex-end;
+}
+.portion-4 .container .buttons{
+    background-color: #3882F6;
+    color: #e5e7eb;
+    border-color: #e5e7eb;
+    height: 30px;
+    width: 72px;
+    align-self: flex-end;
+    
 }
 .footer{
     background-color: #1F2937;
