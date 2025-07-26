@@ -71,23 +71,19 @@ h1{
     margin-left: 150px;
     margin-right: 150px;
     display: flex;
-    flex-wrap: wrap;
+    
     justify-content: space-around;
     
 }
 .portion-2{
     padding:50px;
 }
-.portion-2 p{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-height: fit-content;
-    max-width: 150px;
-    
-}
-.portion-2 .blocks {
-  border: 2px solid;
+
+.portion-2 img {
+  border: 5px solid;
+  border-radius: 25px;
+  border-color: #3882f6;
+
   width: 150px;
   height: 150px;
   overflow: hidden;
