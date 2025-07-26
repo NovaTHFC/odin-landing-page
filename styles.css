@@ -10,10 +10,10 @@
     align-items: center;
     background-color: #1F2937;
     color: #F9FAF8;
-
+    
 }
 .header h3{
-    margin-left: 150px;
+    margin-left: 220px;
 }
 
 h1{
@@ -150,14 +150,16 @@ img {
     color: #e5e7eb;
     height: 30px;
     width: 72px;
+
 }
 .portion-4 .container .buttons{
     align-self: flex-end;
-    border: 2px #F9FAF8;
+    border: 2px solid #F9FAF8;
+
 }
 .footer{
     background-color: #1F2937;
     color:#e5e7eb;
     text-align: center;
-    border-color: #e5e7eb;
+    padding: 10px;
 }
