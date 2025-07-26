@@ -44,21 +44,21 @@ h1{
     flex-wrap: wrap;
     justify-content: center;
     padding: 50px;
-    
+
 }
 .portion-1 .left-side{
-    width: 600px;
-    
-    
-    
+    width: 550px;
+    margin-left: 95px;
 }
 .portion-1 .buttons{
     align-self: last baseline;
     
 }
 .portion-1 .image-placeholder{
-    width: 600px;
+    width: 550px;
+    margin-right: 95px;
 }
+
 .portion-2 h2{
     font-size: 36px;
     font-weight: 900;
@@ -66,13 +66,43 @@ h1{
     text-align: center;
 }
 .portion-2 .container{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
     
+    padding: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     
 }
+.portion-2{
+    padding:50px;
+}
+.portion-2 p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-height: fit-content;
+    max-width: 150px;
+    
+}
+.portion-2 .blocks {
+  border: 2px solid;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
+img {
+  max-width: inherit;
+  max-height: inherit;
+  height: inherit;
+  width: inherit;
+  object-fit: cover;
+}
 .portion-3{
     background-color: #e5e7eb;
 
@@ -82,10 +112,15 @@ h1{
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
-    color: #1F2937
+    color: #1F2937;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 .portion-3 p{
     text-align: right;
+    margin-left: 150px;
+    margin-right: 150px;
+    
 }
 .portion-4 {
     display: flex;
